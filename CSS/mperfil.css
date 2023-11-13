@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+
+
+:root {
+    --menu-size: 250px;
+}
+
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Arbutus Slab', serif;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #436aa5;
+    background-image: url(../IMG/mperfiil.PNG);
+    background-size: cover;
+}
+.retangulo {
+    display: flex;
+    background: rgb(63, 120, 187);
+    border-radius: 20px;
+    width: 260px;
+    height: 60px;
+    margin-top: -15%;
+    margin-left: 58%;
+}
+.retangulo2 {
+    display: flex;
+    background: rgb(63, 120, 187);
+    border-radius: 20px;
+    width: 260px;
+    height: 60px;
+    margin-top: 6%;
+    margin-left: 58%;
+}
+.texto{
+  display: flex;
+  margin-left: 60%;
+  margin-top: -25%;
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.bloq h1{
+    display: flex;
+    margin-left: 65%;
+    margin-top: 8%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.op {
+    margin-left: 10%;
+    margin-top: -30%;
+}
+.fundo{
+    display: flex;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin: 0%;
+    position: relative;
+}
+
+.barra-cima{
+    display: flex;
+}
+.perfil{
+   display: flex;
+   width: 35px;
+   margin-top: -70%;
+   margin-left: 80%;
+}
+.logoeco{
+    display: flex;
+    width: 150px;
+    margin-top: -60%;
+    margin-left: 910%;
+}
+
+.config{
+    display: flex;
+    width: 36px;
+    margin-top: -3%;
+    margin-left: 32%;
+}
+
+.notif{
+    display: flex;
+    width: 40px;
+    margin-top: -30%;
+    margin-left: 26%;
+}
+
+#btnMenu {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+    margin-left: -95%;
+}
+
+#btnMenu:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(127, 199, 247);
+}
+
+#btnMenu:active {
+    background-color: rgb(3, 4, 7);
+}
+
+#btnClose {
+    padding: 8px;
+    background-color: rgb(44, 70, 119);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8%;
+}
+
+#btnClose:active {
+    background-color: rgb(46, 70, 135);
+}
+#btnClose:hover {
+    background-color: rgb(96, 180, 240);
+}
+.menu {
+    position: fixed;
+    top: 10%;
+    width: var(--menu-size);
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -0.6%;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 25%;
+}
+
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #2151b9;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-top: -4%;
+    margin-left: 6%;
+}
+.menu ul li a img{
+    width: 50px;
+}
+.menu ul li a:hover {
+    background-color: rgb(182, 220, 255);
+    border-radius: 6%;
+    height: 2%;
+
+}
+
+#turmas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.area-aluno{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.area-aluno img{
+    height: 16px;
+}
+
+.hidden{
+    display: none;
+}
+
+.effect {
+    transition: margin 0.4s;
+}
+
+.perfil-ft img{
+    display: flex;
+    width: 30%;
+    margin-top: -1%;
+    margin-left: 2%;
+}
+
+
+#userInfo {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#userName,
+#userEmail {
+    display: block;
+    margin: 10px;
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 20px; /* Adicione esta margem para separar do botão */
+}
+
+#editButton {
+    background-color: #366AA3;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
+#editButton:hover {
+    background-color: #2A517B;
+}
+
+#editForm {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#userEditForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#userEditForm label {
+    margin: 10px 0;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    text-align: left;
+}
+
+#userEditForm input {
+    width: 30%; /* Reduz o tamanho dos campos de entrada */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #366AA3;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+#saveButton,
+#cancelButton {
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+#saveButton{
+    background-color: rgba(3, 202, 103, 0.842);
+}
+
+#cancelButton{
+    background-color: rgba(255, 0, 0, 0.651);
+}
+
+#saveButton:hover{
+    background-color: rgba(3, 202, 102, 0.973);
+}
+
+
+#cancelButton:hover {
+    background-color: rgba(235, 42, 42, 0.637);
+}
+
+.mundinho {
+    padding: 10px;
+    position: absolute;
+    top: -5.5%;
+    right: -25%;
+    display: flex;
+}
+
+.mundinho img{
+    width: 25%;
+}
+
+@media (min-width: 768px) {
+    #btnClose {
+        display: none;
+    }
+}

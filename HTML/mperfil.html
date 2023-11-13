@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/mperfil.css">
+    <title>Meu Perfil</title>
+</head>
+<body>
+    <header>
+     <img src="../IMG/menu.png" alt="Clique para abrir ou fechar o menu" id="btnMenu">
+    </header>
+    <a href="../HTML/inicio.html"><div class="mundinho"><img src="../IMG/logo.png" alt=""></div></a>
+        <nav>
+           <div id="menu" class="menu effect"> 
+              <ul>
+                <li><a href="#"><img src="../IMG/perfilgato.png"><p>Meu Perfil</p></a></li>
+                <li id="turmas">
+                    <a href="#">
+                        <img src="../IMG/jogo.png">
+                        <div class="area-aluno">
+                            <p>Jogos</p>
+                            <img src="../IMG/arrow-down-removebg-preview.png" alt="" id="seta-lista">
+                        </div>
+                    </a>
+                    <div class="lista-turmas hidden" id="lista-turma">
+                        <a href="../missoes/jogo-memoria/index.html">Jogo da Memória</a>
+                        <a href="../missoes/caca-palavras/index.html">Caça Palavras</a>
+                        <a href="../missoes/Slide-Puzzle/index.html">Quebra Cabeças</a>
+                    </div>
+                </li>
+                <li><a href="../HTML/alcancadas.html"><img src="../IMG/medalha.png"><p>Conquistas</p></a></li>
+              </ul>
+           </div>
+        </nav>
+        <div class="perfil-ft">
+            <img src="../IMG/jacarivis-removebg-preview.png" alt="">
+            <div id="userInfo">
+                <span id="userName">Nome do Usuário</span>
+                <span id="userEmail">user@example.com</span>
+                <button id="editButton">Editar</button>
+            </div>
+            <div id="editForm" style="display: none;">
+                <form id="userEditForm">
+                    <label for="newName">Novo Nome:</label>
+                    <input type="text" id="newName">
+                    <label for="newEmail">Novo Email:</label>
+                    <input type="email" id="newEmail">
+                    <button id="saveButton">Salvar</button>
+                    <button id="cancelButton">Cancelar</button>
+                </form>
+            </div>
+        </div>
+        <script src="../JS/inicio.js"></script>
+        <script src="../JS/perfil.js"></script>
+        <script src="../JS/lista.js"></script>
+    </body>
+</html>

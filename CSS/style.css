@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../IMG/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img{
+    display: flex;
+    margin-left: -8%;
+    margin-top: -3%;
+    width: 30% ;
+}
+
+.logo p{
+    display: flex;
+    font-size: 13px;
+    margin-top: -11%;
+    margin-left: 12%;
+    color: white;
+}
+
+.login P{
+position: absolute;
+justify-content: center;
+top: 135px;
+display: flex;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 82px;
+
+color: #366AA3;
+}
+
+form {
+    display: flex;
+    padding: 6px;
+    margin-top: 1%;
+    margin-left: 36%;
+    background-color: white;
+    border-radius: 30px;
+    width: 370px;
+    height: 500px;
+}
+
+table {
+    display: flex;
+    width: 50%;
+    margin-left: -15%;
+    margin-top: 30%;
+    border-collapse: separate;
+}
+
+.cadastro {
+    display: flex;
+    margin-top: 83%;
+    margin-left: -57%;
+    height: 8%;
+}
+
+.cadastro a{
+    text-decoration: none;
+}
+
+.cadastro a p{
+    display: flex;
+    list-style: none;
+    color: #366AA3;
+}
+
+
+td {
+    display: flex;
+    padding: 8px;
+    margin-left: 70%;
+    margin-top: -5%;
+}
+
+.email label{
+    display: flex;
+    margin-left: 25%;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.senha label{
+    display: flex;
+    margin-top: 50%;
+    margin-left: 25%;
+    margin-bottom: 40%;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+#email{
+    margin-bottom: -2%;
+    display: flex;
+    width: 320px;
+    height: 25px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 1% ;
+    background-color: #cfdff0;
+    outline-style: none;
+    border: none;
+}
+
+#senha{
+ margin-top: -1.7%;
+ display: flex;
+ width: 320px;
+ height: 25px;
+ position: absolute;
+ padding: 4px;
+ border-radius: 10px;
+ background-color: #cfdff0;
+ margin-left: 1% ;
+ outline-style: none;
+ border: none;
+}
+
+.confirmar{
+    display: flex;
+    margin-top: 5%;
+    margin-left: -3%;
+    height: 7%;
+}
+
+.confirmar a{
+    align-items: center;
+    background-color: #366AA3;
+    border-radius: 30px;
+    padding-left: 31px;
+    padding-right: 10px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 290%;
+
+}
+  
+input[type="button"]:hover {
+    background-color:#b4d2f3;
+}
+
+.botoao1{
+    display: flex;
+    margin-left: -5%;
+    height: 8%;
+}
+
+.botao1 img{
+    display: flex;
+    width: 20px;
+    padding: 38px;
+    margin-top: 400%;
+    margin-left: -55%;
+}
+
+.botoao2{
+    display: flex;
+    margin-top: 57%;
+    margin-left: -5%;
+    height: 8%;
+}
+
+.botao2 img{
+    display: flex;
+    width: 20px;
+    padding: 28px;
+    margin-top: 519%;
+    margin-left: 10%;
+}
+
+@media screen and (min-width: 900px) {
+    .login P{
+        position: absolute;
+        width: 266px;
+        height: 68px;
+        left: 820px;
+        top: 170px;
+        display: flex;
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 82px;
+        
+        color: #366AA3;
+        }
+}
+@media screen and (min-width: 600px){
+    .login P{
+        position: absolute;
+        width: 266px;
+        height: 68px;
+        left: 615px;
+        top: 130px;
+        display: flex;
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 82px;
+        
+        color: #366AA3;
+        }
+
+
+}
+
+

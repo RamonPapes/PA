@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(119, 198, 250);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.content {
+    height: 688px;
+    width: 940px;
+    overflow: hidden;
+    position: absolute;
+    border-top-left-radius: 48%;
+    border-bottom-left-radius: 48%;
+    top: 55%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.green-mode{
+    background-color: rgb(174, 251, 174);
+    display: flex;
+    width: 510px;
+    height: 620px;
+    margin-top: 0.3%;
+    margin-left: -1%;
+}
+
+.menu {
+    position: fixed;
+    top: 10%;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: #fff;
+    margin-top: -0.6%;
+}
+
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    display: flex;
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    margin-top:-10%;
+    
+}
+
+.bar:hover{
+  background-color: #fff;
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 1515px;
+    text-align: center;
+    margin: 0%;
+    height: 45px;
+}
+
+header img{
+    width: 30px;
+    margin: 0px 2px 0px 3px;
+}
+#btnMenu {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+    margin-right: 160%;
+    margin-left: 2%;
+}
+
+#btnMenu:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(127, 199, 247);
+}
+
+#btnMenu:active {
+    background-color: rgb(3, 4, 7);
+}
+
+
+.menu {
+    position: fixed;
+    top: 10%;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -0.6%;
+
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 12%;
+    font-family: 'Arbutus Slab', serif;
+}
+
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #2151b9;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-top: -3%;
+    margin-left: -12%;
+}
+.menu ul li a img{
+    width: 50px;
+}
+.menu ul li a:hover {
+    background-color: rgb(182, 220, 255);
+    border-radius: 6%;
+    height: 2%;
+}
+
+.effect {
+    transition: margin 0.4s;
+}
+
+.terra{
+    display: flex;
+    margin-top: -10%;
+    width: 100px;
+    margin-left: 10%;
+}
+
+#turmas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area-aluno{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.area-aluno img{
+    height: 16px;
+}
+
+.hidden{
+    display: none;
+}
+
+.image-container {
+    display: flex;
+    left: 5%;
+    top: 16%;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+.image-container img{
+    width: 450px;
+   
+}
+
+.mundo{
+    display: flex;
+}
+
+.mundo img{
+    width: 15%;
+    margin-top: -6.9%;
+    margin-left: 87%;
+}

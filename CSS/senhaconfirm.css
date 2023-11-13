@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../IMG/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img{
+    display: flex;
+    margin-left: -8%;
+    margin-top: -3%;
+    width: 30% ;
+}
+
+.logo p{
+    display: flex;
+    font-size: 13px;
+    margin-top: -11%;
+    margin-left: 12%;
+    color: white;
+}
+
+.login P{
+position: absolute;
+width: 266px;
+height: 68px;
+margin-left: -12.6%;
+margin-top: -0.2%;
+display: flex;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 82px;
+color: #366AA3;
+}
+
+form {
+    display: flex;
+    padding: 6px;
+    margin-top: 3%;
+    margin-left: 36%;
+    background-color: white;
+    border-radius: 30px;
+    width: 360px;
+    height: 400px;
+}
+
+table {
+    display: flex;
+    width: 50%;
+    margin-left: -35%;
+    margin-top: 40%;
+    border-collapse: separate;
+}
+
+td {
+    display: flex;
+    padding: 8px;
+    margin-left: 73%;
+    margin-top: -5%;
+}
+
+.senha label{
+    display: flex;
+    margin-left: 35%;
+    margin-right: -370%;
+    margin-top: -80%;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.senha2 label{
+    display: flex;
+    margin-top: 85%;
+    margin-left: 30%;
+    margin-right: -470%;
+    margin-bottom: 40%;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.enviar{
+    display: flex;
+    margin-top: 110%;
+    margin-left: -27%;
+    margin-right: -470%;
+    margin-bottom: 40%;
+    font-size: 20px;
+    line-height: 38px;
+    padding: 20px 50ppx;
+    text-decoration: none;
+}
+
+
+.enviar a{
+    margin-top: -5%;
+    align-items: center;
+    display: flex;
+    width: 57px;
+    height: 37px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #97f384;
+    margin-left: 14%;
+    outline-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+#senha{
+    margin-top: -0.7%;
+    display: flex;
+    width: 320px;
+    height: 25px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #cfdff0;
+    margin-left: 1% ;
+    outline-style: none;
+    border: none;
+}
+
+#senha2{
+    margin-top: -2%;
+    display: flex;
+    width: 320px;
+    height: 25px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #cfdff0;
+    margin-left: 1% ;
+    outline-style: none;
+    border: none;
+}
+
+@media screen and (min-width: 900px) {
+    .login P{
+        position: absolute;
+        width: 266px;
+        height: 68px;
+        left: 740px;
+        top: 150px;
+        display: flex;
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 82px;
+        
+        color: #366AA3;
+        }
+} 

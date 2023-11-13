@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../IMG/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img{
+    display: flex;
+    margin-left: -8%;
+    margin-top: -3%;
+    width: 30% ;
+}
+
+.logo p{
+    display: flex;
+    font-size: 13px;
+    margin-top: -11%;
+    margin-left: 12%;
+    color: white;
+}
+
+.login P{
+position: absolute;
+width: 266px;
+height: 68px;
+margin-left: -9%;
+margin-top: -7%;
+display: flex;
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 82px;
+color: #366AA3;
+}
+
+form {
+    display: flex;
+    padding: 6px;
+    margin-top: -5%;
+    margin-left: 36%;
+    background-color: white;
+    border-radius: 30px;
+    width: 370px;
+    height: 600px;
+}
+
+table {
+    display: flex;
+    width: 50%;
+    margin-left: -35%;
+    margin-top: 33%;
+    border-collapse: separate;
+}
+
+.esenha {
+    display: flex;
+    margin-top: 80%;
+}
+
+.esenha a p{
+    margin-left: 63%;
+    margin-right: -410%;
+    color: #366AA3;
+}
+
+
+.cadastrese{
+    display: flex;
+    margin-top: 80%;
+}
+
+.cadastrese p{
+    margin-left: 350%;
+    margin-right: -400%;
+    color: #366AA3;
+}
+
+.cadastrese a p{
+    list-style: none;
+}
+  
+td {
+    display: flex;
+    padding: 8px;
+    margin-left: 70%;
+    margin-top: -5%;
+}
+
+.email label{
+    display: flex;
+    margin-left: 25%;
+    margin-top: -15%;
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.senha label{
+    display: flex;
+    margin-top: 50%;
+    margin-left: 25%;
+    margin-bottom: 40%;
+    font-size: 17px;
+    line-height: 38px;
+}
+.nome label{
+        display: flex;
+        margin-top: -30%;
+        margin-left: 22%;
+        margin-right: -170%;
+        margin-bottom: 40%;
+        font-size: 17px;
+        line-height: 38px;
+    
+}
+
+
+.repsenha label{
+    display: flex;
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: -470%;
+    margin-bottom: 40%;
+    font-size: 17px;
+    line-height: 38px;
+}
+
+
+#email{
+    margin-bottom: 20%;
+    display: flex;
+    margin-top: -0.7%;
+    width: 320px;
+    height: 25px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 1% ;
+    background-color: #cfdff0;
+    outline-style: none;
+    border: none;
+}
+
+#senha{
+ margin-top: -1.7%;
+ display: flex;
+ width: 320px;
+ height: 25px;
+ position: absolute;
+ padding: 4px;
+ border-radius: 10px;
+ background-color: #cfdff0;
+ margin-left: 1% ;
+ outline-style: none;
+ border: none;
+}
+
+#nome{
+    margin-top: -1.8%;
+    display: flex;
+    width: 320px;
+    height: 25px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #cfdff0;
+    margin-left: 0.9% ;
+    outline-style: none;
+    border: none;
+   }
+
+#Repsenha{
+    margin-top: -1.7%;
+    display: flex;
+    width: 320px;
+    height: 25px;
+    position: absolute;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #cfdff0;
+    margin-left: 1% ;
+    outline-style: none;
+    border: none;
+   }
+
+.professor input {
+    display: flex;
+    background-color:#abdcf8;
+    width:128px ;
+    height: 140px;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 30px;
+    border: none;
+    margin-top: -80%;
+    font-size: 14px;
+    margin-left: 135%;
+}
+
+.teacher img{
+    display: flex;
+    width: 150px;
+    margin-top: 25%;
+    margin-left: 127%;
+   
+}
+
+.teacher p{
+    display: flex;
+    font-size: 18px;
+    margin-left: 155%;
+}
+
+.aluno{
+    margin-left: 300%;
+}
+
+.aluno input{
+    display: flex;
+    color: white;
+    padding: 18px 28px;
+    border-radius: 50%;
+    border: none;
+    margin-top: -178%;
+    cursor: pointer;
+    margin-left: 9%;
+    z-index: 1;
+}
+
+.aluno img{
+    display: flex;
+    width: 300%;
+    margin-left: -87%;
+    margin-top: 10%;
+}
+
+#enviar{
+    cursor: pointer;
+}
+ 
+@media screen and (min-width: 900px) {
+    .login P{
+        position: absolute;
+        width: 266px;
+        height: 68px;
+        left: 770px;
+        top: 150px;
+        display: flex;
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 82px;
+        
+        color: #366AA3;
+        }
+}

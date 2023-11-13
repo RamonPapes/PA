@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+:root {
+    --menu-size: 250px;
+}
+
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Arbutus Slab', serif;
+    overflow: hidden;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #436aa5;
+    background-image: url(../IMG/fundop.png);
+    
+}
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 1535px;
+    text-align: center;
+    margin: 0%;
+}
+.barra-cima{
+    display: flex;
+}
+.perfil{
+   display: flex;
+   width: 35px;
+   margin-top: -70%;
+   margin-left: 80%;
+}
+.logoeco{
+    display: flex;
+    width: 150px;
+    margin-top: -60%;
+    margin-left: 910%;
+}
+
+.config{
+    display: flex;
+    width: 36px;
+    margin-top: -3%;
+    margin-left: 32%;
+}
+
+.notif{
+    display: flex;
+    width: 40px;
+    margin-top: -30%;
+    margin-left: 26%;
+}
+
+#btnMenu {
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+    margin-right: 160%;
+    margin-left: 2%;
+}
+
+#btnMenu:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(127, 199, 247);
+}
+
+#btnMenu:active {
+    background-color: rgb(3, 4, 7);
+}
+
+#btnClose {
+    padding: 8px;
+    background-color: rgb(44, 70, 119);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8%;
+}
+
+#btnClose:active {
+    background-color: rgb(46, 70, 135);
+}
+#btnClose:hover {
+    background-color: rgb(96, 180, 240);
+}
+.menu {
+    position: fixed;
+    top: 10%;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -0.6%;
+
+}
+
+.menu ul {
+    list-style: none;
+    margin-left: 20px;
+    z-index: 999;
+}
+
+.menu ul li {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 12%;
+    font-family: 'Arbutus Slab', serif;
+}
+
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #2151b9;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-top: -3%;
+}
+.menu ul li a img{
+    width: 50px;
+}
+
+.menu ul li a svg{
+    width: 35px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(182, 220, 255);
+    border-radius: 6%;
+    height: 2%;
+}
+
+#turmas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area-aluno{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.area-aluno img{
+    height: 16px;
+}
+
+.hidden{
+    display: none;
+}
+
+.effect {
+    transition: margin 0.4s;
+}
+
+.pe{
+    margin-bottom: 0;
+    padding:50px 0;
+    color:#000000;
+    background-color: white;
+    
+}
+
+.retbloq{
+    background-color: #2470c2;
+    width: 700px;
+    height: 550px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 48%;
+}
+
+#retbloq{
+    margin-left: 55%;
+    margin-top: 5%;
+    width: 650px;
+}
+.galeria{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 150px;
+    margin-top: -23%;
+    margin-left: 68%;
+}
+
+.galeria img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.galeria:hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+.arara{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 100px;
+    margin-top: -27%;
+    margin-left: 88%;
+}
+
+
+.arara img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.arara:hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+.ballena{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 100px;
+    margin-top: -27%;
+    margin-left: 78%;
+}
+
+.ballena img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.ballena:hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+.arbol{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 100px;
+    margin-top: -27%;
+    margin-left: 58%;
+}
+
+.arbol img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.arbol:hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+.macaco{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 100px;
+    margin-top: -16%;
+    margin-left: 58%;
+}
+
+.macaco img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.macaco :hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+.capivara{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 100px;
+    margin-top: -16%;
+    margin-left: 68%;
+}
+
+.capivara img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.capivara:hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+.tierra{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 100px;
+    margin-top: -16%;
+    margin-left: 78%;
+}
+
+.tierra img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.tierra:hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+.mar{
+    display: flex;
+    margin:10 px 20px;
+    box-shadow: 0 4px 8px 0 rgb(165, 248, 237), 0 6px 20px 0 rgb(0,0,0,0.19);
+    border-radius: 50%;
+    float:left;
+    width: 100px;
+    margin-top: -16%;
+    margin-left: 88%;
+}
+
+.mar img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.mar:hover {
+    border: 3px solid rgb(59, 111, 255);
+    border-radius: 50%;
+}
+
+.mundo {
+    padding: 10px;
+    position: absolute;
+    top: -6.8%;
+    right: -19%;
+    display: flex;
+}
+
+.mundo img{
+    width: 48%;
+}
+
+@media (min-width: 768px) {
+    #btnClose {
+        display: none;
+    }
+
+    .retbloq{
+        background-color: #2470c2;
+        width: 750px;
+        height: 450px;
+        display: flex;
+        border-radius: 20px;
+        margin-top: -5%;
+        margin-left: 23%;
+    }
+    .text h1{
+        display: flex;
+        color: white;
+        font-size: 35px;
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+    .galeria{
+        width: 100px;
+        margin-top: -27%;
+    }
+    .galeria img{
+        width: 100px;
+    }
+}
+
+#turmas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area-aluno{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.area-aluno img{
+    height: 16px;
+}
+
+.hidden{
+    display: none;
+}
